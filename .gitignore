@@ -3,3 +3,5 @@ dvnguyen.com.sublime-workspace
 *__pycache__
 *.pytest_cache
 *.egg-info
+dvnguyen.com.todo.txt
+public/
