@@ -22,6 +22,6 @@ for power in range(7):
     
 with open('memory-usage.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',')
-    writer.writerow(['Case', 'List', 'Array'])
+    writer.writerow(['Elements', 'List Size (bytes)', 'Array Size (bytes)'])
     for memusage in memusages:
         writer.writerow([memusage.case, memusage.list, memusage.array])
