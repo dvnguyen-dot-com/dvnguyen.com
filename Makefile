@@ -1,5 +1,5 @@
 build:
-	pip install -e ../gentor
+	pip install -e $(HOME)/code/src/github.com/nguyendv/gentor
 	gentor build
 
 serve:
